@@ -1,0 +1,33 @@
+/*span est un element de ligne alors que div est un element bloc*/
+#prenom{
+	font-weight: bold;
+}
+#nom{
+	font-weight: bold;
+	font-variant-caps: small-caps;
+}
+#ville{
+	text-transform: lowercase;
+	font-variant-caps: small-caps;
+}
+dd{
+	position: relative;
+	right: -20%%;
+}
+
+dt+dd{
+	position: relative;
+	left: 50%;
+	top:40px;
+
+}
+dd + dd + dd{
+	position: relative;
+	left : 50%;
+    top:-30px;
+
+ }
+dt{
+	border-bottom: solid;
+	border-width: 2px;
+}
